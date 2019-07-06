@@ -163,6 +163,15 @@
 			<version>${org.springframework-version}</version>
 		</dependency>
 		<!-- Mybatis End -->
+		
+		<!-- Mybatis PreparedStatement의 SQL이 재대로 되었는지 확인 하기 위한 라이브러리 -->
+		<!-- https://mvnrepository.com/artifact/org.bgee.log4jdbc-log4j2/log4jdbc-log4j2-jdbc4.1 -->
+		<dependency>
+   			<groupId>org.bgee.log4jdbc-log4j2</groupId>
+   			<artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
+   		 	<version>1.16</version>
+		</dependency>
+		
 
 		<!-- Test -->
 		<dependency>
